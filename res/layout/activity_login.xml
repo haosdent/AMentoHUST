@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <CheckBox
+        	android:id="@+id/mentohust_switch"
+        	android:button="@drawable/mentohust_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mentoSwitch"/>
+    <TextView
+        android:id="@+id/mentohust_log"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/login_activity"
+        android:textSize="20sp"/>
+</LinearLayout>

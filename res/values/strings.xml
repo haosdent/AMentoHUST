@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">AMentoHUST</string>
+    
+    <string name="login_activity">Android版锐捷</string>
+    <string name="prefs_activity">参数设置</string>
+    <string name="about_activity">关于</string>
+    
+    <string name="prefs_action">参数设置</string>
+    <string name="about_action">关于</string>
+    
+    <string name="login_prefs">登录参数</string>
+    <string name="user_prefs">用户名</string>
+    <string name="user_key_prefs">u</string>
+    <string name="user_tip_prefs">请输入用户名</string>
+    <string name="passwd_prefs">密码</string>
+    <string name="passwd_key_prefs">p</string>
+    <string name="passwd_tip_prefs">请输入密码</string>
+    <string name="passwd_hide_prefs">*****</string>
+    <string name="options_prefs">选项</string>
+    <string name="nics_prefs">网卡</string>
+    <string name="nics_key_prefs">n</string>
+    <string name="nics_tip_prefs">请选择网卡</string>
+    <string name="dns_prefs">DNS服务器</string>
+    <string name="dns_key_prefs">d</string>
+    <string name="dns_default_prefs">0.0.0.0</string>
+    <string name="dns_tip_prefs">请输入DNS服务器的IP</string>
+    <string name="failed_prefs">失败重试次数限制</string>
+    <string name="failed_key_prefs">l</string>
+    <string name="failed_default_prefs">8</string>
+    <string name="failed_tip_prefs">请输入所允许的失败自动重试次数</string>
+
+    <string name="origin_about">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020“人到华中大，有甜亦有辣。明德厚学地，求是创新家。”。数年前，华中科技大学的几位童鞋通过分析锐捷的协议，实现了在*nix平台上登录锐捷的MentoHUST，此间无数人受益。吾等于百无聊赖之际，将MentoHUST移植至Android，谨为表对各位作者们的高山仰止，向风慕义之情。</string>
+    <string name="license_header_about">License:\u0020</string>
+    <string name="license_gpl_about"><a href="http://www.gnu.org/licenses/gpl.html">GNU GPL v3</a></string>
+    <string name="repo_header_about">源码地址：</string>
+    <string name="repo_google_about"><a href="https://code.google.com/p/mentohust/">MentoHUST</a>\u0020</string>
+    <string name="repo_github_about"><a href="https://github.com/scauhci/AMentoHUST">AMentoHUST</a></string>
+    <string name="coder_header_about">码农：</string>
+    <string name="coder_haosong_about"><a href="http://weibo.com/haosdent">华农金中菊</a>\u0020</string>
+    <string name="coder_jieqiang_about"><a href="https://github.com/scauhci/AMentoHUST">陈洁强</a></string>
+    <string name="designer_header_about">UI：</string>
+    <string name="designer_jiawen_about"><a href="https://github.com/scauhci/AMentoHUST">李嘉文\u0020</a></string>
+    <string name="lab_header_about">Powered By:\u0020</string>
+    <string name="lab_hci_about"><a href="mailto:hci_server@groups.163.com">HCI@SCAU</a></string>
+</resources>
+
+
+

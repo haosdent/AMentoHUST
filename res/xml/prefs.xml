@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/login_prefs">
+
+        <EditTextPreference
+                android:key="@string/user_key_prefs"
+                android:title="@string/user_prefs"
+                android:summary="@string/user_tip_prefs"
+                android:dialogTitle="@string/user_tip_prefs" />
+
+        <EditTextPreference
+                android:key="@string/passwd_key_prefs"
+                android:title="@string/passwd_prefs"
+                android:summary="@string/passwd_tip_prefs"
+                android:dialogTitle="@string/passwd_tip_prefs" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/options_prefs">
+                
+        <ListPreference
+                android:key="@string/nics_key_prefs"
+                android:title="@string/nics_prefs"
+                android:summary="@string/nics_tip_prefs"
+                android:dialogTitle="@string/nics_tip_prefs" />
+
+        <EditTextPreference
+                android:key="@string/dns_key_prefs"
+                android:title="@string/dns_prefs"
+                android:summary="@string/dns_default_prefs"
+                android:defaultValue="@string/dns_default_prefs"
+                android:dialogTitle="@string/dns_tip_prefs" />
+
+        <EditTextPreference
+                android:key="@string/failed_key_prefs"
+                android:title="@string/failed_prefs"
+                android:summary="@string/failed_default_prefs"
+                android:defaultValue="@string/failed_default_prefs"
+                android:dialogTitle="@string/failed_tip_prefs" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
