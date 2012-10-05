@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+import com.stericson.RootTools.RootTools;
 
 public class LoginActivity extends SherlockActivity {
 	MentoStatusHandler statusHandler;
@@ -27,7 +28,7 @@ public class LoginActivity extends SherlockActivity {
 	TextView mentoLogView;
 	Timer statusTimer;
 
-	public static final String LOG_KEY = "log"; 
+	public static final String LOG_KEY = "log";
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -44,10 +45,10 @@ public class LoginActivity extends SherlockActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		String title = item.getTitle() + "";
-		if(title.equals(getString(R.string.prefs_action))){			
+		if (title.equals(getString(R.string.prefs_action))) {
 			Intent intent = new Intent(this, PrefsActivity.class);
 			startActivity(intent);
-		}else if(title.equals(getString(R.string.about_action))){
+		} else if (title.equals(getString(R.string.about_action))) {
 			Intent intent = new Intent(this, AboutActivity.class);
 			startActivity(intent);
 		}
@@ -57,6 +58,7 @@ public class LoginActivity extends SherlockActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		// RootTools.debugMode = true;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 

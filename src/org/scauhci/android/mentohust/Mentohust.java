@@ -53,10 +53,9 @@ public class Mentohust {
 
 	public static void kill() {
 		try {
-			if (getPid() != NONE) {
-				String killCmd = String.format(KILL_CMD, getPid());
-				CommandCapture cmd = new CommandCapture(0, killCmd);
-				RootTools.getShell(true).add(cmd).waitForFinish();
+			int pid = NONE;
+			if ((pid = getPid()) != NONE) {
+				RootTools.killProcess(PATH);
 			}
 			rmLog();
 		} catch (Exception e) {
@@ -79,13 +78,8 @@ public class Mentohust {
 	public static int getPid() {
 		int pid = NONE;
 		try {
-			List<String> results = RootTools.sendShell(STATUS_CMD, 0);
-			int l = results.size();
-			if (l >= 2) {
-				String result = results.get(1);
-				if(result.split("\\s+").length > 1){					
-					pid = Integer.parseInt(result.split("\\s+")[1]);
-				}
+			if (RootTools.isProcessRunning(PATH)) {
+				pid = 1000;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
