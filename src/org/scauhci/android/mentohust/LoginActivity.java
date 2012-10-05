@@ -27,7 +27,7 @@ public class LoginActivity extends SherlockActivity {
 	TextView mentoLogView;
 	Timer statusTimer;
 
-	public static final String LOG_KEY = "log";
+	public static final String LOG_KEY = "log"; 
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

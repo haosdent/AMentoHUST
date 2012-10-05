@@ -38,9 +38,9 @@
     <string name="repo_github_about"><a href="https://github.com/scauhci/AMentoHUST">AMentoHUST</a></string>
     <string name="coder_header_about">码农：</string>
     <string name="coder_haosong_about"><a href="http://weibo.com/haosdent">华农金中菊</a>\u0020</string>
-    <string name="coder_jieqiang_about"><a href="https://github.com/scauhci/AMentoHUST">陈洁强</a></string>
+    <string name="coder_jieqiang_about"><a href="https://github.com/scauhci/AMentoHUST">jmchen</a></string>
     <string name="designer_header_about">UI：</string>
-    <string name="designer_jiawen_about"><a href="https://github.com/scauhci/AMentoHUST">李嘉文\u0020</a></string>
+    <string name="designer_jiawen_about"><a href="https://github.com/scauhci/AMentoHUST">蒜头\u0020</a></string>
     <string name="lab_header_about">Powered By:\u0020</string>
     <string name="lab_hci_about"><a href="mailto:hci_server@groups.163.com">HCI@SCAU</a></string>
 </resources>
