@@ -10,10 +10,10 @@ AMentoHUST通过将MentoHUST移植至Android平台，从而实现在Android上�
 
 ## 运行截图
 
- <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/1.jpg">
- <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/2.jpg">
- <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/3.jpg">
- <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/4.jpg">
+ <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/1.jpg" width="200">
+ <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/2.jpg" width="200">
+ <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/3.jpg" width="200">
+ <img src="https://raw.github.com/scauhci/AMentoHUST/master/screenshot/4.jpg"  width="200">
 
 ## 使用方法
 
