@@ -1,6 +1,6 @@
 # AMentoHUST
 
-AMentoHUST通过将MentoHUST移植至Android平台，从而实现在Android上登录锐捷。可直接点击[AMentoHUST](https://github.com/scauhci/AMentoHUST/downloads)下载apk安装包。
+AMentoHUST通过将MentoHUST移植至Android平台，从而实现在Android上登录锐捷。可直接点击[AMentoHUST](https://github.com/scauhci/AMentoHUST/downloads)下载apk安装包。(注：Android设备必须已经ROOT过才能连接成功！)
 
 请访问 [MentoHUST](http://code.google.com/p/mentohust/) 源项目的地址以获取更多信息。
 
