@@ -63,7 +63,7 @@ public class LoginActivity extends SherlockActivity {
 		setContentView(R.layout.activity_login);
 
 		mentoSwitch = (CheckBox) findViewById(R.id.mentohust_switch);
-		mentoLogView = (TextView) findViewById(R.id.mentohust_log);
+		//mentoLogView = (TextView) findViewById(R.id.mentohust_log);
 		if (Mentohust.getPid() != Mentohust.NONE) {
 			mentoSwitch.setChecked(true);
 		}
@@ -80,7 +80,7 @@ public class LoginActivity extends SherlockActivity {
 		public void handleMessage(Message msg) {
 			super.handleMessage(msg);
 			String result = msg.getData().getString(LOG_KEY);
-			mentoLogView.setText(result);
+			//mentoLogView.setText(result);
 			if (result.equals(Mentohust.EXITED_STATUS)) {
 				mentoSwitch.setChecked(false);
 			} else {

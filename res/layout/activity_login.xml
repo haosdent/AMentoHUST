@@ -8,16 +8,16 @@
 
     <CheckBox
         android:id="@+id/mentohust_switch"
-        android:layout_width="200dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:button="@drawable/mentohust_switch"
         android:onClick="mentoSwitch" />
 
-    <TextView
+    <!-- <TextView
         android:id="@+id/mentohust_log"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/login_activity"
-        android:textSize="35sp"/>
+        android:textSize="35sp"/> -->
 </LinearLayout>
